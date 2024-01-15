@@ -15,8 +15,8 @@ if(isset($result['status']))
         if(isset($result['result'])){
            
             if($result['result']==true){
-echo "<pre>";
-print_r($result['data']);
+                echo "<pre>";
+                print_r($result['data']);
             }
         }
     }
